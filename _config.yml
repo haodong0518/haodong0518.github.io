@@ -16,7 +16,7 @@ timezone:
 
 title: Haodong Wang # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: 王浩东, MS in Mechanical Engineering at Northwestern University, interested in soft robotics, flexible robotic systems for minimally invasive surgery # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,17 +29,17 @@ github:
   username: haodong0518 # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: N/A # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Haodong Wang
+  email: haodongwang2025@u.northwestern.edu # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com # change to your twitter homepage
+    - https://github.com/haodong0518 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -76,7 +76,7 @@ theme_mode: # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 
+avatar: "avatar.JPG"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
