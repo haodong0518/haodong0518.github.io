@@ -6,7 +6,7 @@ categories: [Project,Kalman Filter]
 tags: [Python]
 render_with_liquid: false
 image:
-  path: /project_images/slam.jpeg
+  path: /project_images/slam.png
   alt: UTIAS Multi-Robot Cooperative Localization and Mapping
 ---
 

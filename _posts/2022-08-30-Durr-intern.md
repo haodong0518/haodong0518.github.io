@@ -6,7 +6,7 @@ categories: [Internship, Engineering Designer]
 tags: [Creo, Solidworks, Fluid Dynamics]
 render_with_liquid: false
 image:
-  path: /project_images/evaporative_cooler.jpeg
+  path: /project_images/evaporative_cooler.png
   alt: Evoporative Cooler for Gas Turbine 
 ---
 
