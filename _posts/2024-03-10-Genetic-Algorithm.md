@@ -6,7 +6,7 @@ categories: [Project,Genetic Algorithm]
 tags: [Python]
 render_with_liquid: false
 image:
-  path: /project_images/Alife.jpeg
+  path: /project_images/Alife.png
   alt: The fourth generation in evolution
 ---
 
