@@ -1,5 +1,5 @@
 ---
-title: Genetic Algorithm Application for Soft Robotics
+title: Project - Genetic Algorithm Application for Soft Robotics
 author: Haodong Wang
 date: 2024-03-10 14:10:00 +0800
 categories: [Project,Genetic Algorithm]
