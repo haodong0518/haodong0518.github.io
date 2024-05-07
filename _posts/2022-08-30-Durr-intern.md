@@ -1,7 +1,7 @@
 ---
-title: Durr, USA - Internship
+title: Internship - Durr, USA
 author: Haodong Wang
-date: 2024-03-10 14:10:00 +0800
+date: 2022-08-30 14:10:00 +0800
 categories: [Internship, Engineering Designer]
 tags: [Creo, Solidworks, Fluid Dynamics]
 render_with_liquid: false
