@@ -25,6 +25,8 @@ _The Evaporative Cooler_
 
 Most power plants are located in the desert, away from cities, where the inlet air temperature is too high to maintain higher power generator efficiency. The evaporative cooler system pumps water to a higher position and splashes it out. When the inlet air passes through the evaporative cooler, the temperature decreases, enhancing power generation efficiency.
 
-Unlike evaporative cooler systems used at home, industrial evaporative coolers often consist of several floors. The hydraulic system includes tubes, pumps, flow meters, valves, and pressure gauges. I used Creo to design the entire hydraulic system and quote each part for customers.
+Unlike evaporative cooler systems used at home, industrial evaporative coolers often consist of several floors. The hydraulic system includes tubes, pumps, flow meters, valves, and pressure gauges.
 
-Thank you for the opportunity! I learned about how mechanical engineering works in the industry and how technical details are crucial in business."
+Based on the custom requirements, I designed the pipeline using fluid dynamics principles such as the Continuity Equation, Bernoulli's Equation, and Navier-Stokes Equations. After basic calculations, I used Creo to draw the pipeline for each part, then quoted the entire project for the manager using the SAP system.
+
+Thank you for the opportunity! I learned about how mechanical engineering works in the industry and how technical details are crucial in business.
