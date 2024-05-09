@@ -23,6 +23,10 @@ A decision matrix was used to select the sensor. This table shows the decision m
 ![Desktop View](/project_images/capstone_project/circuit_resolver.png){: width="972" height="589" }
 _Circuit in the electric resolver_
 
+![Desktop View](/project_images/capstone_project/stator_rotor.png){: width="972" height="589" }
+_Stator and Rotor_
+
+
 The electric resolvers consist of two main components: stator and rotor. In the stator, there are two windings with 90 degrees of displacement from each other, which are sin and cos windings, as shown in Figure 1. When the rotor starts to rotate within the stator, it induces two AC voltages in sin and cos windings. Thus, the position information of the shaft could be directly calculated by arctan(VsinVcos). The simple design without many electronic elements makes resolvers able to endure a high environmental temperature of up to 220 °C. 
 
 
@@ -30,6 +34,8 @@ In the second semester, the test is designed, and data is collected from the res
 
 First of all, the milling machine is used to test the resolver instead of the lathe due to safety and convenience. The milling machine could fix the stator so that our team didn’t need to redesign the holder. In addition, the workstation has extra space to put the computer and connect the resolver. 
 
+![Desktop View](/project_images/Motor_sensor.png){: width="972" height="589" }
+_Sensor Test of Milling Machine_
 
 
 In addition, our team used a photoresistor as a reference to measure the rotation speed. The photoresistor resistance changes with the change of light. A self-designed tachometer is built based on the photoresistor. Dark tape and reflective tapes are attached to the shaft. The resistance will change when the reflective tape on the shaft passes through the photoresistor. With the rotation speed increasing, the resistance frequency will change as well. The team used the myDaq measurement device and drew the FFT (Fast Fourier Transform) Plot to monitor the frequency change. Then the rotation speed could be figured out based on the frequency. 
