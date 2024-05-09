@@ -15,7 +15,7 @@ Engine is an important component in human lives, including space exploration and
 
 In the first semester research was done on all kinds of sensors, including Inertial Measurement Units (IMU), Rotary Variable Differential Transformers (RDVT), tachometers, resolvers, and encoders. The resolver was selected after comparing the sensors’ performance in accuracy, endurance in harsh environments, cost, reliability, and weight. 
 
-![Desktop View](/project_images/Motor_Sensor1.png){: width="972" height="589" }
+![Desktop View](/project_images/capstone_project/Motor_Sensor1.png){: width="972" height="589" }
 _decision matrix for selecting the sensor_
 
 A decision matrix was used to select the sensor. This table shows the decision matrix in detail. In this table, several types of sensors are listed, and each of these sensors is evaluated based on the design criteria. The weights and the criteria of the decision matrix are provided by GE Aviation. The scale of the sensors is from 1 to 3. Three-point means the sensor is most compliant with the requirements, while one-point means the sensor is the least compliant. Based on the decision matrix, the resolver was chosen as the sensor purchased in the last semester. 
