@@ -53,7 +53,7 @@ The team used the myDaq measurement device and drew the FFT (Fast Fourier Transf
 ![Desktop View](/project_images/capstone_project/FFT_plot.png){: width="972" height="589" }
 _FFT Plot_
 
-#Video
+## Video
 
 {%include embed/youtube.html id='WpREy1HoCTw'%}
 
