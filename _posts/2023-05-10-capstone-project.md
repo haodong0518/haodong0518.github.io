@@ -23,7 +23,7 @@ The several requirements provided by the clients for the shaft sensor are as fol
 2. Must be able to measure the position/rotation of a 1.5’-2’ diameter motor shaft
 3. Must have an accuracy of at least ±75°
 4. No wires connected to any shaft-mounted components
-5. Desired maximum operating conditions:
+5. Desired maximum operating conditions
 :  a. Temperature: 200°C
 :  b. Altitude: 25,000 ft
 :  c. Rotation Speed: 20,000 rpm
