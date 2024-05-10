@@ -24,10 +24,10 @@ The several requirements provided by the clients for the shaft sensor are as fol
 3. Must have an accuracy of at least ±75°
 4. No wires connected to any shaft-mounted components
 5. Desired maximum operating conditions:
-  a. Temperature: 200°C
-  b. Altitude: 25,000 ft
-  c. Rotation Speed: 20,000 rpm
-  d. Shock/Vibration: 20G
+:  a. Temperature: 200°C
+:  b. Altitude: 25,000 ft
+:  c. Rotation Speed: 20,000 rpm
+:  d. Shock/Vibration: 20G
 
 
 ![Desktop View](/project_images/capstone_project/Motor_Sensor1.png){: width="972" height="589" }
