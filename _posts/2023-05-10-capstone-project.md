@@ -55,6 +55,9 @@ _Sensor Test of Milling Machine_
 
 In addition, our team used a photoresistor as a reference to measure the rotation speed. The photoresistor resistance changes with the change of light. A self-designed tachometer is built based on the photoresistor. Dark tape and reflective tapes are attached to the shaft. The resistance will change when the reflective tape on the shaft passes through the photoresistor. With the rotation speed increasing, the resistance frequency will change as well. 
 
+![Desktop View](/project_images/capstone_project/Reflective_tape_on_shaft.png){: width="972" height="589" }
+_Reflective tape on the shaft_
+
 ![Desktop View](/project_images/capstone_project/Labview_code.png){: width="972" height="589" }
 _Labview Code_
 
