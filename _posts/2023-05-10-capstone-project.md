@@ -50,7 +50,7 @@ _Labview Code_
 
 The team used the myDaq measurement device and drew the FFT (Fast Fourier Transform) Plot to monitor the frequency change. Then the rotation speed could be figured out based on the frequency. 
 
-![Desktop View](/project_images/capstone_project/.png){: width="972" height="589" }
+![Desktop View](/project_images/capstone_project/FFT_plot.png){: width="972" height="589" }
 _Labview Code_
 
 
