@@ -66,7 +66,7 @@ _Labview Code_
 
 
 
-The team used the myDaq measurement device and drew the FFT (Fast Fourier Transform) Plot to monitor the frequency change. Then the rotation speed could be figured out based on the frequency. 
+Our team used the myDaq measurement device and drew the FFT (Fast Fourier Transform) Plot to monitor the frequency change. Then the rotation speed could be figured out based on the frequency. 
 
 ![Desktop View](/project_images/capstone_project/FFT_plot.png){: width="972" height="589" }
 _FFT Plot_
@@ -74,6 +74,14 @@ _FFT Plot_
 ## Video
 
 {%include embed/youtube.html id='WpREy1HoCTw'%}
+
+## Error Analysis
+
+![Desktop View](/project_images/capstone_project/Calibration.png){: width="972" height="589" }
+_Calibration_
+
+![Desktop View](/project_images/capstone_project/Installation_offset.png){: width="972" height="589" }
+_Installation offset_
 
 
 Finally, the data is collected based on two offset change types in the Y and Z axes. Our Team used the digital control in the milling machine to move the stator along the Z axis from -1 mm to 1mm.  Also, the stator moves horizontally from -0.2 mm to 0.1 mm. Based on those two data, our team studied how the error percentage would change with the rotation speed and installation offset changing.
