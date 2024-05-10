@@ -15,6 +15,21 @@ Engine is an important component in human lives, including space exploration and
 
 In the first semester research was done on all kinds of sensors, including Inertial Measurement Units (IMU), Rotary Variable Differential Transformers (RDVT), tachometers, resolvers, and encoders. The resolver was selected after comparing the sensors’ performance in accuracy, endurance in harsh environments, cost, reliability, and weight. 
 
+## Design Requirements 
+
+The several requirements provided by the clients for the shaft sensor are as follows:
+
+1. Total weight of no more than 1.0 lbs
+2. Must be able to measure the position/rotation of a 1.5’-2’ diameter motor shaft
+3. Must have an accuracy of at least ±75°
+4. No wires connected to any shaft-mounted components
+5. Desired maximum operating conditions:
+  a. Temperature: 200°C
+  b. Altitude: 25,000 ft
+  c. Rotation Speed: 20,000 rpm
+  d. Shock/Vibration: 20G
+
+
 ![Desktop View](/project_images/capstone_project/Motor_Sensor1.png){: width="972" height="589" }
 _decision matrix for selecting the sensor_
 
