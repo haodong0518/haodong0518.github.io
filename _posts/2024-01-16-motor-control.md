@@ -9,5 +9,3 @@ image:
   path: /project_images/motor_control.jpeg
   alt: Circuit Configurations
 ---
-
-
