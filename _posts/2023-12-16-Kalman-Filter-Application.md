@@ -79,9 +79,11 @@ $$
 \end{equation}
 $$
 
- I use the X to represent the inputs and Y to represent the outputs in \eqref{eq:series5} and \eqref{eq:series6}. This model is not linear, there are moments when linear velocity and angular velocity coexist, then robot's trajectory would be nonlinear. 
+ I use the X to represent the inputs and Y to represent the outputs in \eqref{eq:series5} and \eqref{eq:series6}. 
 
 ![Desktop View](/project_images/SLAM/Estimated%20Trajectory.png){: width="372" height="189" }
+
+### The estimated  path distract a lot from the groundtruth path, this is probably caused by control errors, the ground frictions and odometry data. 
 
 ![Desktop View](/project_images/SLAM/UKF_Algorithm.png){: width="372" height="189" }
 
