@@ -9,7 +9,8 @@ image:
   path: /project_images/robotArm.png
   alt: Mobile Manipulation
 ---
-required: CoppeliaSim Installed
+Required Engine: CoppeliaSim Installed
+Assumption: no joint limits on the five joints of the robot arm
 
 In this capstone project, I developed a software designed to plan a trajectory for the end-effector of the youBot mobile manipulator. This system comprises a mobile base equipped with four mecanum wheels and a 5R robot arm. My task involves implementing odometry to track chassis movement, as well as feedback control to guide the youBot in picking up a block from a specified location, transporting it to a desired destination, and placing it down.
 
