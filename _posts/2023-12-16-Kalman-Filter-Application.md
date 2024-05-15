@@ -10,4 +10,4 @@ image:
   alt: UTIAS Multi-Robot Cooperative Localization and Mapping
 ---
 
-
+$$V_{kx} =V_{k}*cos(\theta_{k-1}+\omega*(t_{k}-t_{k-1})) $$
