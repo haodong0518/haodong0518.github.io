@@ -53,6 +53,21 @@ _CSV File 13 values for each line_
  - [ ] Open the gripper.
  - [ ] Return the gripper to the standoff position.
 
+## Dimensions
+
+![Desktop View](/project_images/Mobile_Manipulation/5R-joint.png){: width="972" height="589" }
+_5R Robot Configuration_
+
+![Desktop View](/project_images/Mobile_Manipulation/gripper_tip.png){: width="972" height="589" }
+_gripper_
+
+![Desktop View](/project_images/Mobile_Manipulation/mecanum_wheel.png){: width="972" height="589" }
+_omnidirectional mobile base_
+
+![Desktop View](/project_images/Mobile_Manipulation/cube_dimension.png){: width="972" height="589" }
+_cube dimensions_
+
+
 ## Control and Simulation:
 
 Implement a Jacobian pseudoinverse position controller to follow the reference trajectory.
