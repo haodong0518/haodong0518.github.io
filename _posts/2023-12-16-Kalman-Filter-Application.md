@@ -40,7 +40,7 @@ The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
 $$
 \begin{equation}
-  \V_{kx} =V_{k}*cos(\theta_{k-1}+\omega*(t_{k}-t_{k-1}))
+  V_{kx} =V_{k}*cos(\theta_{k-1}+\omega*(t_{k}-t_{k-1}))
   \label{eq:series}
 \end{equation}
 $$
