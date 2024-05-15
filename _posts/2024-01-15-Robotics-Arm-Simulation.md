@@ -20,12 +20,6 @@ Upon completion, it will generate a comma-separated values (csv) text file. This
 
 ![Desktop View](/project_images/Mobile_Manipulation/bot_steps.png){: width="372" height="189" }
 
-Key Project Components
-Trajectory Planning:
-
-Plan and execute a trajectory for the end-effector.
-Ensure the gripper correctly picks up and places the block.
-
 ## CSV Output:
 
 The software will output a CSV file with the youBot's configurations, wheel angles, and gripper state.
