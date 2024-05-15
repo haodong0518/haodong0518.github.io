@@ -18,7 +18,7 @@ In this capstone project, I developed a software designed to plan a trajectory f
 
 Upon completion, it will generate a comma-separated values (csv) text file. This file will detail the configurations of both the chassis and the arm, including the angles of the four wheels and the state of the gripper (whether open or closed) over time. To evaluate the effectiveness of my trajectory, I will utilize the CoppeliaSim simulator. Specifically, I will employ Scene 6 (CSV Mobile Manipulation youBot) from the CoppeliaSim Introduction wiki page. Prior to executing my solution, I will verify its functionality by testing it with the provided sample csv file.
 
-![Desktop View](/project_images/Mobile_Manipulation/bot_steps.png){: width="572" height="289" }
+![Desktop View](/project_images/Mobile_Manipulation/bot_steps.png){: width="372" height="189" }
 
 Key Project Components
 Trajectory Planning:
