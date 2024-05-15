@@ -39,16 +39,11 @@ Physics Simulation:
 Utilize CoppeliaSim’s physics engine to simulate interactions between the youBot and the block.
 Default to the ODE physics engine, though alternatives like Bullet and MuJoCo are available.
 Detailed Requirements
-CSV File Specifications:
+
+## CSV File Specifications:
 
 Each line represents the youBot’s configuration at a 0.01-second interval.
-A line consists of 13 values: chassis 
-𝜙
-ϕ, chassis 
-𝑥
-x, chassis 
-𝑦
-y, arm joint angles (J1-J5), wheel angles (W1-W4), and gripper state.
+A line consists of 13 values: 
 
 ## Trajectory Segments:
 
@@ -82,21 +77,10 @@ Input and Output
 - A CSV file for CoppeliaSim to simulate the youBot’s task.
 - A data file with the end-effector error as a function of time.
 
-Project Workflow
-Initialize and Test:
+## Milestones:
 
-Set up CoppeliaSim and test with sample CSV files.
-Validate the block's initial and goal configurations.
-Develop and Simulate:
-
-Write software to generate the trajectory and control commands.
-Simulate using CoppeliaSim to ensure the youBot performs the pick-and-place task successfully.
-Milestones:
-
-Milestone 1: Kinematics simulator and CSV output.
-Milestone 2: Reference trajectory generation.
-Milestone 3: Feedforward control.
-Final Step: Complete the project and prepare the submission.
-
+- Milestone 1: Kinematics simulator and CSV output.
+- Milestone 2: Reference trajectory generation.
+- Milestone 3: Feedforward control.
 
 By following these steps, I will create a robust software solution to control the youBot, achieving precise and accurate mobile manipulation in a simulated environment.
