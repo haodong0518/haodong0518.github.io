@@ -113,8 +113,10 @@ $$P_{t+1} = \hat{P}_{t+1} - K_{t+1} P_{zz} K_{t+1}^T$$
 Firstly, I calculate the predicted trajectory based on the Odometry data, then I pick up the points matched with the measure data time. I used those matched predicted trajectory points to calculate the corresponding measurement values Z_bar, then I input those values into whole algorithm and make estimations on the control and measurement covariance matrix R and Q
 
 ![Desktop View](/project_images/SLAM/corrected_trajectory_q0.01.png){: width="372" height="189" }
+_Q=0.01_
 
 ![Desktop View](/project_images/SLAM/corrected_trajectory_q0.5.png){: width="372" height="189" }
+_Q=0.5_
 
 The measurement error has a great impact on my filter path. once the q is decreasing, the plot would become zia-zagging, and once I increase the Q, the path would become smoother. I think that is reasonable, since the Q decides the noise level in the measurement level. Since we do not have the real value Q, once we set the noise level higher, which means the full filter will believe the measurement data less, and the trajectory will be smoother like the estimated trajectory. Once the noise level of Q decrease, the filter believes the measurement data more. Since the measurement data is capatured by different cameras, thus the positions could shift.
 
