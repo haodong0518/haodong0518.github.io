@@ -58,13 +58,13 @@ _CSV File 13 values for each line_
 ![Desktop View](/project_images/Mobile_Manipulation/5R-joint.png){: width="972" height="589" }
 _5R Robot Configuration_
 
-![Desktop View](/project_images/Mobile_Manipulation/gripper_tip.png){: width="972" height="589" }
+![Desktop View](/project_images/Mobile_Manipulation/gripper_tip.png){: width="500" height="300" }
 _gripper_
 
-![Desktop View](/project_images/Mobile_Manipulation/mecanum_wheel.png){: width="972" height="589" }
+![Desktop View](/project_images/Mobile_Manipulation/mecanum_wheel.png){: width="500" height="300" }
 _omnidirectional mobile base_
 
-![Desktop View](/project_images/Mobile_Manipulation/cube_dimension.png){: width="972" height="589" }
+![Desktop View](/project_images/Mobile_Manipulation/cube_dimension.png){: width="500" height="300" }
 _cube dimensions_
 
 
