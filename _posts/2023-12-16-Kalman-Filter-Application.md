@@ -36,6 +36,9 @@ A 10-camera Vicon motion capture system provides the groundtruth pose (x,y,θ) f
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
+---
+math: true
+---
 
 $$
 \begin{equation}
