@@ -87,9 +87,21 @@ The estimated  path distract a lot from the groundtruth path, this is probably c
 
 In mathematical terms, the UKF captures the mean and covariance of the state distribution more accurately by considering terms beyond the first-order linear approximation:
 
+$$\begin{align*}
+\chi_t^0 & = x_t \\
+\chi_t^i & = x_t + (\sqrt{(n+\lambda)P_t})_i, \quad i=1,2,\ldots,n \\
+\chi_t^i & = x_t - (\sqrt{(n+\lambda)P_t})_{i-n}, \quad i=n+1, n+2, \ldots, 2n
+\end{align*}$$
+
+$$\hat{\chi}_{t+1}^i = f(\chi_t^i)$$
+
 The update step of the UKF similarly generates sigma points for measurements, predicts expected measurements using the measurement model, and updates the state estimate based on the actual measurements. The UKF combines the information from the prediction and update steps to provide an accurate and robust estimate of the state in the presence of nonlinearities and uncertainty
 
 Unscented Kalman filters not only estimate the state but also provide an estimate of the uncertainty (covariance) associated with that state estimate. Measurement data is used to update this covariance, reflecting the increasing or decreasing confidence in the state estimate. This information is valuable for decision-making and assessing the reliability of the filter's output.
+
+$$K_{t+1} = P_{xz} (P_{zz})^{-1}$$
+$$x_{t+1} = \hat{x}_{t+1} + K_{t+1} (z_{t+1} - \hat{z}_{t+1})$$
+$$P_{t+1} = \hat{P}_{t+1} - K_{t+1} P_{zz} K_{t+1}^T$$
 
 ### For implementing the unscented kalman filter, I assume: 
 1. The state X is in gaussian distribution in 3 dimensions. 
