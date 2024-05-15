@@ -1,5 +1,5 @@
 ---
-title: Project - Kalman Filter Application 
+title: Project - Unscented Kalman Filter Application 
 author: Haodong Wang
 date: 2023-12-16 14:10:00 +0800
 categories: [Project,Kalman Filter]
@@ -13,8 +13,6 @@ math: true
 
 ## Dataset:  
 http://asrl.utias.utoronto.ca/datasets/mrclam/index.html#Summary
-
-# Summary
 
 This 2d indoor dataset collection consists of 9 individual datasets. Each dataset contains odometry and (range and bearing) measurement data from 5 robots, as well as accurate groundtruth data for all robot poses and (15) landmark positions. The dataset is intended for studying the problems of cooperative localization (with only a team robots), cooperative localization with a known map, and cooperative simultaneous localization and mapping (SLAM).
 
@@ -86,6 +84,14 @@ $$
 The estimated  path distract a lot from the groundtruth path, this is probably caused by control errors, the ground frictions and odometry data. 
 
 ![Desktop View](/project_images/SLAM/UKF_Algorithm.png){: width="372" height="189" }
+
+The motion model performs well in ideal environments without any frictions, and it performs poorly  in real environments if only motion model is used in path estimations. Real-world systems are subject to various sources of error, noise, and uncertainty. Measurement data reflects the actual, observed behavior of the system, but it is often corrupted by noise. Kalman filters use this noisy measurement data to correct and refine the system's state estimate. By continuously updating the state estimate with new measurements, the filter reduces the impact of noise and provides a more accurate and stable estimate.
+
+In mathematical terms, the UKF captures the mean and covariance of the state distribution more accurately by considering terms beyond the first-order linear approximation:
+
+The update step of the UKF similarly generates sigma points for measurements, predicts expected measurements using the measurement model, and updates the state estimate based on the actual measurements. The UKF combines the information from the prediction and update steps to provide an accurate and robust estimate of the state in the presence of nonlinearities and uncertainty
+
+Unscented Kalman filters not only estimate the state but also provide an estimate of the uncertainty (covariance) associated with that state estimate. Measurement data is used to update this covariance, reflecting the increasing or decreasing confidence in the state estimate. This information is valuable for decision-making and assessing the reliability of the filter's output.
 
 ### For implementing the unscented kalman filter, I assume: 
 1. The state X is in gaussian distribution in 3 dimensions. 
