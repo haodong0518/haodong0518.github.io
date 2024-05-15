@@ -52,3 +52,6 @@ I built a Hand Shearing Auxetics (HSA) as a basic unit. This step procedurally g
 3. Randomly add a HSA unit in different positions. 
    
 
+
+Github Link: https://github.com/haodong0518/Alife_Project
+
