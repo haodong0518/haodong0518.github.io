@@ -85,8 +85,6 @@ The estimated  path distract a lot from the groundtruth path, this is probably c
 
 ![Desktop View](/project_images/SLAM/UKF_Algorithm.png){: width="372" height="189" }
 
-The motion model performs well in ideal environments without any frictions, and it performs poorly  in real environments if only motion model is used in path estimations. Real-world systems are subject to various sources of error, noise, and uncertainty. Measurement data reflects the actual, observed behavior of the system, but it is often corrupted by noise. Kalman filters use this noisy measurement data to correct and refine the system's state estimate. By continuously updating the state estimate with new measurements, the filter reduces the impact of noise and provides a more accurate and stable estimate.
-
 In mathematical terms, the UKF captures the mean and covariance of the state distribution more accurately by considering terms beyond the first-order linear approximation:
 
 The update step of the UKF similarly generates sigma points for measurements, predicts expected measurements using the measurement model, and updates the state estimate based on the actual measurements. The UKF combines the information from the prediction and update steps to provide an accurate and robust estimate of the state in the presence of nonlinearities and uncertainty
@@ -107,6 +105,10 @@ Firstly, I calculate the predicted trajectory based on the Odometry data, then I
 ![Desktop View](/project_images/SLAM/corrected_trajectory_q0.5.png){: width="372" height="189" }
 
 The measurement error has a great impact on my filter path. once the q is decreasing, the plot would become zia-zagging, and once I increase the Q, the path would become smoother. I think that is reasonable, since the Q decides the noise level in the measurement level. Since we do not have the real value Q, once we set the noise level higher, which means the full filter will believe the measurement data less, and the trajectory will be smoother like the estimated trajectory. Once the noise level of Q decrease, the filter believes the measurement data more. Since the measurement data is capatured by different cameras, thus the positions could shift.
+
+# Summary
+
+The motion model performs well in ideal environments without any frictions, and it performs poorly  in real environments if only motion model is used in path estimations. Real-world systems are subject to various sources of error, noise, and uncertainty. Measurement data reflects the actual, observed behavior of the system, but it is often corrupted by noise. Kalman filters use this noisy measurement data to correct and refine the system's state estimate. By continuously updating the state estimate with new measurements, the filter reduces the impact of noise and provides a more accurate and stable estimate.
 
 ## Github Link:
 
