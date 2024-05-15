@@ -27,9 +27,15 @@ Each robot and landmark is uniquely identified by a barcode with predefined dime
 
 Forward velocity commands along the robot's x-axis, v, and angular velocity commands (rotations about the robot's z-axis following the right-hand rule), ω, are recorded as odometry data at an average rate of 67Hz.
 
+
+# Groundtruth
+
+A 10-camera Vicon motion capture system provides the groundtruth pose (x,y,θ) for each robot and groundtruth position (x,y) for each landmark at 100Hz with accuracy on the order of 1×10-3m. The reference frame used by Vicon serves also as the inertial reference frame in the datasets.
+
 # Mathematics
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
+
 
 $$
 \begin{equation}
