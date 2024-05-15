@@ -10,9 +10,10 @@ image:
   alt: UTIAS Multi-Robot Cooperative Localization and Mapping
 ---
 
+
 $$
 \begin{equation}
-  \[ V_{kx} = V_{k} \cos(\theta_{k-1} + \omega (t_{k} - t_{k-1})) \]
+  \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
   \label{eq:series}
 \end{equation}
 $$
