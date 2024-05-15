@@ -83,7 +83,7 @@ $$
 
 ![Desktop View](/project_images/SLAM/Estimated%20Trajectory.png){: width="372" height="189" }
 
-### The estimated  path distract a lot from the groundtruth path, this is probably caused by control errors, the ground frictions and odometry data. 
+The estimated  path distract a lot from the groundtruth path, this is probably caused by control errors, the ground frictions and odometry data. 
 
 ![Desktop View](/project_images/SLAM/UKF_Algorithm.png){: width="372" height="189" }
 
