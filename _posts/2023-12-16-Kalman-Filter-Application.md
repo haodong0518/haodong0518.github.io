@@ -78,3 +78,5 @@ $$
   \label{eq:series6}
 \end{equation}
 $$
+
+ I use the X to represent the inputs and Y to represent the outputs in \eqref{eq:series5} and \eqref{eq:series6}. This model is not linear, there are moments when linear velocity and angular velocity coexist, then robot's trajectory would be nonlinear. 
