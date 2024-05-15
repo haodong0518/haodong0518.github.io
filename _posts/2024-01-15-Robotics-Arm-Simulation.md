@@ -20,5 +20,83 @@ Upon completion, it will generate a comma-separated values (csv) text file. This
 
 ![Desktop View](/project_images/Mobile_Manipulation/bot_steps.png){: width="972" height="589" .w-50 .left}
 
-happy
+Key Project Components
+Trajectory Planning:
 
+Plan and execute a trajectory for the end-effector.
+Ensure the gripper correctly picks up and places the block.
+
+## CSV Output:
+
+The software will output a CSV file with the youBot's configurations, wheel angles, and gripper state.
+This CSV file will be played in CoppeliaSim to simulate the robot’s performance.
+CoppeliaSim Setup:
+
+Use Scene 6 (CSV Mobile Manipulation youBot) from the CoppeliaSim Introduction wiki.
+Test with the sample CSV file to understand the required solution format.
+Physics Simulation:
+
+Utilize CoppeliaSim’s physics engine to simulate interactions between the youBot and the block.
+Default to the ODE physics engine, though alternatives like Bullet and MuJoCo are available.
+Detailed Requirements
+CSV File Specifications:
+
+Each line represents the youBot’s configuration at a 0.01-second interval.
+A line consists of 13 values: chassis 
+𝜙
+ϕ, chassis 
+𝑥
+x, chassis 
+𝑦
+y, arm joint angles (J1-J5), wheel angles (W1-W4), and gripper state.
+
+## Trajectory Segments:
+
+ - [ ] Move the gripper from its initial configuration to above the block (standoff position).
+ - [ ] Lower the gripper to grasp the block.
+ - [ ] Close the gripper.
+ - [ ] Lift the block back to the standoff position.
+ - [ ] Move to the standoff position above the final block location.
+ - [ ] Lower the block to the final position.
+ - [ ] Open the gripper.
+ - [ ] Return the gripper to the standoff position.
+
+## Control and Simulation:
+
+Implement a Jacobian pseudoinverse position controller to follow the reference trajectory.
+Perform odometry to track chassis movement. 
+
+## Write a motion simulator to integrate wheel and joint speeds over each timestep.
+Input and Output
+
+## Inputs: 
+
+- Initial block configuration.
+- Desired final block configuration.
+- Initial youBot configuration.
+- Initial reference trajectory for the end-effector.
+- Optional: Feedback controller gains.
+  
+## Outputs:
+
+- A CSV file for CoppeliaSim to simulate the youBot’s task.
+- A data file with the end-effector error as a function of time.
+
+Project Workflow
+Initialize and Test:
+
+Set up CoppeliaSim and test with sample CSV files.
+Validate the block's initial and goal configurations.
+Develop and Simulate:
+
+Write software to generate the trajectory and control commands.
+Simulate using CoppeliaSim to ensure the youBot performs the pick-and-place task successfully.
+Milestones:
+
+Milestone 1: Kinematics simulator and CSV output.
+Milestone 2: Reference trajectory generation.
+Milestone 3: Feedforward control.
+Final Step: Complete the project and prepare the submission.
+
+
+By following these steps, I will create a robust software solution to control the youBot, achieving precise and accurate mobile manipulation in a simulated environment.
