@@ -40,7 +40,7 @@ The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
 $$
 \begin{equation}
-  \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
+  \V_{kx} =V_{k}*cos(\theta_{k-1}+\omega*(t_{k}-t_{k-1}))
   \label{eq:series}
 \end{equation}
 $$
