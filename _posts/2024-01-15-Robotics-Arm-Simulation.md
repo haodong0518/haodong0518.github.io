@@ -92,4 +92,4 @@ Perform odometry to track chassis movement.
 - Milestone 2: Reference trajectory generation.
 - Milestone 3: Feedforward control.
 
-By following these steps, I will create a robust software solution to control the youBot, achieving precise and accurate mobile manipulation in a simulated environment.
+By following these steps, I created a robust software solution to control the youBot, achieving precise and accurate mobile manipulation in a simulated environment.
