@@ -41,6 +41,41 @@ The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 $$
 \begin{equation}
   \ V_{kx} =V_{k}*cos(\theta_{k-1}+\omega*(t_{k}-t_{k-1}))
-  \label{eq:series}
+  \label{eq:series1}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+  \ V_{ky} =V_{k}*sin(\theta_{k-1}+\omega*(t_{k}-t_{k-1})) 
+  \label{eq:series2}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+  \ P_{x} = \int_{k-1}^{k} V_{k}*cos(\theta_{k-1} + w*(t - t_{k-1})) \,dt = \frac{V_{k}*(sin(\theta_{k-1}+w*\delta_{t})-sin(\theta_{k-1}))}{w} 
+  \label{eq:series3}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+  \ P_{y} =\int_{k-1}^{k} V_{k}*sin(\theta_{k-1} + w*(t - t_{k-1})) \,dt = \frac{V_{k}*(-cos(\theta_{k-1}+w*\delta_{t})+cos(\theta_{k-1}))}{w} 
+  \label{eq:series4}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+  \ X_{k} = [t , v, w]^{T}
+  \label{eq:series5}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+  \ Y_k = [t,P_x, P_y, \theta]^{T }
+  \label{eq:series6}
 \end{equation}
 $$
