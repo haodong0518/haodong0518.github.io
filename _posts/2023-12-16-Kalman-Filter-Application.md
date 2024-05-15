@@ -8,6 +8,7 @@ render_with_liquid: false
 image:
   path: /project_images/slam.png
   alt: UTIAS Multi-Robot Cooperative Localization and Mapping
+math: true
 ---
 
 ## Dataset:  
@@ -36,9 +37,6 @@ A 10-camera Vicon motion capture system provides the groundtruth pose (x,y,θ) f
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
----
-math: true
----
 
 $$
 \begin{equation}
