@@ -9,9 +9,6 @@ image:
   path: /project_images/robotArm.png
   alt: Mobile Manipulation
 ---
-
-Github Link:  https://github.com/haodong0518/Mobile-Manipulation
-
 required: CoppeliaSim Installed
 
 In this capstone project, I developed a software designed to plan a trajectory for the end-effector of the youBot mobile manipulator. This system comprises a mobile base equipped with four mecanum wheels and a 5R robot arm. My task involves implementing odometry to track chassis movement, as well as feedback control to guide the youBot in picking up a block from a specified location, transporting it to a desired destination, and placing it down.
@@ -93,3 +90,5 @@ Perform odometry to track chassis movement.
 - Milestone 3: Feedforward control.
 
 By following these steps, I created a robust software solution to control the youBot, achieving precise and accurate mobile manipulation in a simulated environment.
+
+Github Link:  https://github.com/haodong0518/Mobile-Manipulation
