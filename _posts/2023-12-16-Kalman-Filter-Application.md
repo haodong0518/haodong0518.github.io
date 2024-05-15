@@ -87,6 +87,13 @@ The estimated  path distract a lot from the groundtruth path, this is probably c
 
 ![Desktop View](/project_images/SLAM/UKF_Algorithm.png){: width="372" height="189" }
 
+### For implementing the unscented kalman filter, I assume: 
+#### 1. The state X is in gaussian distribution in 3 dimensions. 
+#### 2. The control error R ~ N (0, Cov_R)
+#### 3. The measurement error meets Q~N (0, Cov_Q)
+#### 4. k-1 state the X posterior mean and covariance matrix Miu_X_k-1 and Cov_x_k-1
+#### 5. the real measurement value z_k in state k
+
 ![Desktop View](/project_images/SLAM/corrected_trajectory_q0.01.png){: width="372" height="189" }
 
 ![Desktop View](/project_images/SLAM/corrected_trajectory_q0.5.png){: width="372" height="189" }
