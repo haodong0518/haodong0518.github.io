@@ -11,7 +11,7 @@ image:
 ---
 
 
-# ArtificialLife Project
+### ArtificialLife Project
 **Code are listed under different branches**
 
 **Step 1: Basic Simulation with Mujoco**
