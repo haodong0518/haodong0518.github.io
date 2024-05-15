@@ -35,7 +35,7 @@ A 10-camera Vicon motion capture system provides the groundtruth pose (x,y,θ) f
 
 # Mathematics
 
-When given the v,w,t, how to find its next position in next state.
+When given the v, w, delta_t in state k-1, how to find its position in next state k.
 
 $$
 \begin{equation}
