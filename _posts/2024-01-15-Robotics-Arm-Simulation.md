@@ -45,6 +45,9 @@ Detailed Requirements
 Each line represents the youBot’s configuration at a 0.01-second interval.
 A line consists of 13 values: 
 
+![Desktop View](/project_images/Mobile_Manipulation/csv_13_values.png){: width="972" height="589" }
+_CSV File 13 values for each line_
+
 ## Trajectory Segments:
 
  - [ ] Move the gripper from its initial configuration to above the block (standoff position).
@@ -60,9 +63,6 @@ A line consists of 13 values:
 
 Implement a Jacobian pseudoinverse position controller to follow the reference trajectory.
 Perform odometry to track chassis movement. 
-
-## Write a motion simulator to integrate wheel and joint speeds over each timestep.
-Input and Output
 
 ## Inputs: 
 
