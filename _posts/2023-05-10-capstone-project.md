@@ -73,10 +73,9 @@ _FFT Plot_
 
 ## Video
 
-```liquid
-{%include embed/{youtube}.html id='WpREy1HoCTw'%}
+```video 
+https://www.bilibili.com/video/BV1xJ4m1A7Kb/?spm_id_from=333.999.0.0
 ```
-{% include embed/{bilibili}.html id='{BV1eU411o77e}' %}
 
 ## Error Analysis
 
