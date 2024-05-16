@@ -5,6 +5,7 @@ date: 2023-05-10 14:10:00 +0800
 categories: [Capstone Project]
 tags: [Solidworks, Labview]
 render_with_liquid: false
+mermaid: true
 image:
   path: /project_images/Motor_sensor.png
   alt: Sensor Test on Milling Machine

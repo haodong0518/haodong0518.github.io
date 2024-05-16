@@ -5,7 +5,6 @@ date: 2022-08-30 14:10:00 +0800
 categories: [Internship, Engineering Designer]
 tags: [Creo, Solidworks, Fluid Dynamics]
 render_with_liquid: false
-pin: true
 math: true
 mermaid: true
 image:
