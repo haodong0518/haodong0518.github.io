@@ -75,7 +75,7 @@ _FFT Plot_
 
 ## Video
 
-{% include embed/youtube.html id='Balreaj8Yqs' %}
+https://www.bilibili.com/video/BV1xJ4m1A7Kb/?spm_id_from=333.999.0.0&vd_source=54b49ae7551a890b368316d24110ff9f
 
 ## Error Analysis
 
