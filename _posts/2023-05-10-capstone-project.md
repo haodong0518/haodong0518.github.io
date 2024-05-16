@@ -73,7 +73,7 @@ _FFT Plot_
 
 ## Video
 
-{%include embed/youtube.html id='WpREy1HoCTw'%}
+{%include embed/{youtube}.html id='WpREy1HoCTw'%}
 
 ## Error Analysis
 
