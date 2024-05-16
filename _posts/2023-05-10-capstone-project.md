@@ -8,6 +8,7 @@ render_with_liquid: false
 image:
   path: /project_images/Motor_sensor.png
   alt: Sensor Test on Milling Machine
+video: true
 ---
 
 
@@ -73,9 +74,8 @@ _FFT Plot_
 
 ## Video
 
-```video 
-https://www.bilibili.com/video/BV1xJ4m1A7Kb/?spm_id_from=333.999.0.0
-```
+{%include embed/{youtube}.html id='WpREy1HoCTw'%}
+{% include embed/{bilibili}.html id='{BV1eU411o77e}' %}
 
 ## Error Analysis
 
