@@ -24,12 +24,12 @@ Components:
 
 ![Desktop View](/project_images/Motor_control/Motor_pins.png){: width="372" height="189" }
 
-Pin 1 - Motor +
-Pin 2 - Motor -
-Pin 3 - Encoder GND
-Pin 4 - Encoder B
-Pin 5 - Encoder 3.3V
-Pin 6 - Encoder A
+- [ ] Pin 1 - Motor +
+- [ ] Pin 2 - Motor -
+- [ ] Pin 3 - Encoder GND
+- [ ] Pin 4 - Encoder B
+- [ ] Pin 5 - Encoder 3.3V
+- [ ] Pin 6 - Encoder A
 The encoder has 96 lines.
 
 
