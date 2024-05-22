@@ -21,6 +21,8 @@ Components:
 
 ## Motor pinout:
 
+![Desktop View](/project_images/evaporative_cooler_inside.png){: width="972" height="589" }
+_The Principle of the evaporative cooler_
 
 - [ ] Pin 1 - Motor +
 - [ ] Pin 2 - Motor -
