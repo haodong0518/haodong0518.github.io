@@ -34,3 +34,18 @@ The encoder has 96 lines.
 
 
 ## The Raspberry Pi Pico H:
+
+![Desktop View](/project_images/Motor_control/pico.png){: width="372" height="189" }
+
+## Diagram:
+
+![Desktop View](/project_images/Motor_control/pid_control.png){: width="372" height="189" }
+
+![Desktop View](/project_images/Motor_control/components.png){: width="372" height="189" }
+
+
+## Results:
+
+![Desktop View](/project_images/Motor_control/Result1.jpg){: width="372" height="189" }
+
+![Desktop View](/project_images/Motor_control/Result2.jpg){: width="372" height="189" }
