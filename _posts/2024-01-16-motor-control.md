@@ -50,18 +50,18 @@ The encoder has 96 lines.
 Parameters:
 
 Control gains I used:
-Kp: 2.4 %duty/mA
-Ki: 0.4 %duty/(mA*s)
+- [ ] Kp: 2.4 %duty/mA
+- [ ] Ki: 0.4 %duty/(mA*s)
 
 Position Control:
-Kp: 10 mA/deg
-Ki: 0 mA/(deg*s)
-Kd: 10 mA*s/deg
+- [ ] Kp: 10 mA/deg
+- [ ] Ki: 0 mA/(deg*s)
+- [ ] Kd: 10 mA*s/deg
 
 Unit:
-Kp is percent per million amp
-Ki is percent per million amp per second
-Kd is degrees per million amp second
+- [ ] Kp is percent per million amp
+- [ ] Ki is percent per million amp per second
+- [ ] Kd is degrees per million amp second
 
 ![Desktop View](/project_images/Motor_control/Result1.jpg){: width="372" height="189" }
 
