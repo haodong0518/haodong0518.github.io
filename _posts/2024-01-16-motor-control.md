@@ -61,7 +61,7 @@ Position Control:
 Unit:
 - [ ] Kp is percent per million amp
 - [ ] Ki is percent per million amp per second
-- [ ] Kd is degrees per million amp second
+- [ ] Kd is degrees per million amp second.
 
 ![Desktop View](/project_images/Motor_control/Result1.jpg){: width="372" height="189" }
 
