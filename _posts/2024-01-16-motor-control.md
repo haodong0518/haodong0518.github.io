@@ -34,10 +34,18 @@ The encoder has 96 lines.
 
 
 ## The Raspberry Pi Pico H:
-
+![Desktop View](/project_images/motor_control/pico.png){: width="972" height="589" }
+_Pico H_
 
 ## Diagram:
+![Desktop View](/project_images/motor_control/pid_control.png){: width="972" height="589" }
+_PID loop_
 
+![Desktop View](/project_images/motor_control/components.png){: width="972" height="589" }
+_Components_
+
+![Desktop View](/project_images/motor_control/hand_draw.png){: width="972" height="589" }
+_Hand Drawing Circuit Diagram_
 ## Results:
 
 Parameters:
@@ -56,3 +64,8 @@ Unit:
 - [ ] Ki is percent per million amp per second
 - [ ] Kd is degrees per million amp second.
 
+![Desktop View](/project_images/motor_control/Result1.jpg){: width="972" height="589" }
+_Red is Desired Trajectory, Blue is the actual Trajectory_
+
+![Desktop View](/project_images/motor_control/Result2.jpg){: width="972" height="589" }
+_Red is Desired Trajectory, Blue is the actual Trajectory_
