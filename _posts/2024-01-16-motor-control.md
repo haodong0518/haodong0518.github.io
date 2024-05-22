@@ -21,7 +21,6 @@ Components:
 
 ## Motor pinout:
 
-![Desktop View](/project_images/Motor_control/motor_pins.png){: width="372" height="189" }
 
 - [ ] Pin 1 - Motor +
 - [ ] Pin 2 - Motor -
@@ -34,15 +33,8 @@ The encoder has 96 lines.
 
 ## The Raspberry Pi Pico H:
 
-![Desktop View](/project_images/Motor_control/pico.png){: width="372" height="189" }
 
 ## Diagram:
-
-![Desktop View](/project_images/Motor_control/pid_control.png){: width="372" height="189" }
-
-![Desktop View](/project_images/Motor_control/components.png){: width="372" height="189" }
-
-![Desktop View](/project_images/Motor_control/hand_draw.png){: width="372" height="189" }
 
 ## Results:
 
@@ -62,6 +54,3 @@ Unit:
 - [ ] Ki is percent per million amp per second
 - [ ] Kd is degrees per million amp second.
 
-![Desktop View](/project_images/Motor_control/Result1.jpg){: width="372" height="189" }
-
-![Desktop View](/project_images/Motor_control/Result2.jpg){: width="372" height="189" }
