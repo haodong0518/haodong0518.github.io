@@ -9,3 +9,29 @@ image:
   path: /project_images/motor_control.jpeg
   alt: Circuit Configurations
 ---
+
+Github Link: https://github.com/haodong0518/PID-Motor-Control
+
+Background:
+
+Building a smart motor driver for a robot joint that incorporates some of the functionality of an industrial product like the Copley Accelus driver. The drive integrates an amplifier to drive the motor and feedback control for tracking reference position, speed or torque.
+
+This motor drive system can accept a desired motor trajectory, execute that trajectory, and send the actual results back to the computer for plotting.
+
+Components:
+
+## Motor pinout:
+
+![Desktop View](/project_images){: width="372" height="189" }
+
+
+Pin 1 - Motor +
+Pin 2 - Motor -
+Pin 3 - Encoder GND
+Pin 4 - Encoder B
+Pin 5 - Encoder 3.3V
+Pin 6 - Encoder A
+The encoder has 96 lines.
+
+
+## The Raspberry Pi Pico H:
