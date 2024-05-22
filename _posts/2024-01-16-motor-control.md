@@ -43,6 +43,7 @@ The encoder has 96 lines.
 
 ![Desktop View](/project_images/Motor_control/components.png){: width="372" height="189" }
 
+![Desktop View](/project_images/Motor_control/hand_draw.png){: width="372" height="189" }
 
 ## Results:
 
