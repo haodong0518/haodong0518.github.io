@@ -46,6 +46,9 @@ _Components_
 
 ![Desktop View](/project_images/motor_control/hand_draw.png){: width="972" height="589" }
 _Hand Drawing Circuit Diagram_
+
+![Desktop View](/project_images/motor_control.jpeg){: width="972" height="589" }
+
 ## Results:
 
 Parameters:
