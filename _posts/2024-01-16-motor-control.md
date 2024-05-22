@@ -22,7 +22,7 @@ Components:
 
 ## Motor pinout:
 
-![Desktop View](/project_images){: width="372" height="189" }
+![Desktop View](/project_images/Motor_control/Motor_pins.png){: width="372" height="189" }
 
 
 Pin 1 - Motor +
